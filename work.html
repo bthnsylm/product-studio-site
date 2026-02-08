@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f7f8fb" />
+  <meta name="description" content="Selected work and projects." />
+  <title>Work | Batuhan Studio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+<body>
+  <div class="bg" aria-hidden="true"></div>
+
+  <div class="page-transition" id="pageTransition" aria-hidden="true">
+    <div class="pt-inner">
+      <div class="pt-card"><span class="spinner" aria-hidden="true"></span><span>Loading…</span></div>
+    </div>
+  </div>
+
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="./index.html" aria-label="Home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Batuhan Studio</span>
+        <small>build • ship • iterate</small>
+      </a>
+
+      <nav class="nav" aria-label="Main">
+        <a href="./index.html">Home</a>
+        <a href="./work.html">Work</a>
+        <a href="./services.html">Services</a>
+        <a href="./about.html">About</a>
+        <a href="./index.html#contact">Contact</a>
+      </nav>
+
+      <div class="actions">
+        <button class="icon-btn" id="themeToggle" aria-label="Toggle theme"><span id="themeIcon">☀️</span></button>
+        <button class="icon-btn burger" id="burger" aria-label="Menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <aside class="drawer" id="drawer" aria-hidden="true">
+    <div class="drawer-panel drawer-panel">
+      <div style="display:flex; justify-content:space-between; align-items:center; gap:10px;">
+        <span class="pill">menu</span>
+        <button class="icon-btn" id="drawerClose" aria-label="Close">✕</button>
+      </div>
+      <div style="margin-top:10px">
+        <a href="./index.html">Home</a>
+        <a href="./work.html">Work</a>
+        <a href="./services.html">Services</a>
+        <a href="./about.html">About</a>
+        <a href="./index.html#contact">Contact</a>
+      </div>
+      <div style="margin-top:14px; display:flex; gap:8px; flex-wrap:wrap;">
+        <span class="pill">static</span><span class="pill">fast</span><span class="pill">public repo safe</span>
+      </div>
+    </div>
+  </aside>
+
+  
+<main>
+  <section class="hero" style="padding-bottom:10px;">
+    <div class="container">
+      <div class="kicker reveal"><span class="kdot"></span><span>work</span></div>
+      <h1 class="reveal">Selected builds & experiments.</h1>
+      <p class="lead reveal">A studio-style list. Each card can link to a repo, live demo, or a case-study page.</p>
+      <div class="hero-cta reveal">
+        <a class="btn primary" href="./services.html"><span>See services</span><span class="arrow">→</span></a>
+        <a class="btn" href="./index.html#contact"><span>Contact</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="work">
+        <div class="work-item reveal">
+          <div class="work-cover"><span class="work-badge">Web / Woo</span></div>
+          <div class="work-body">
+            <h3>Checkout Flow Cleanup</h3>
+            <p>Validation, error recovery, and performance improvements for conversion.</p>
+            <div class="work-meta"><span class="tag">UX</span><span class="tag">WooCommerce</span><span class="tag">Perf</span></div>
+          </div>
+        </div>
+
+        <div class="work-item reveal">
+          <div class="work-cover"><span class="work-badge">Flutter</span></div>
+          <div class="work-body">
+            <h3>Boutique Store App</h3>
+            <p>Catalog + product detail + cart. Data from WordPress/Woo via safe config.</p>
+            <div class="work-meta"><span class="tag">Flutter</span><span class="tag">API</span><span class="tag">UI</span></div>
+          </div>
+        </div>
+
+        <div class="work-item reveal">
+          <div class="work-cover"><span class="work-badge">Automation</span></div>
+          <div class="work-body">
+            <h3>Ops Mini Toolkit</h3>
+            <p>Small scripts that save time: reporting, sync checks, bulk updates.</p>
+            <div class="work-meta"><span class="tag">Python</span><span class="tag">APIs</span><span class="tag">Ops</span></div>
+          </div>
+        </div>
+
+        <div class="work-item reveal">
+          <div class="work-cover"><span class="work-badge">Static</span></div>
+          <div class="work-body">
+            <h3>High-Performance Landing</h3>
+            <p>Fast load, clear copy, and conversion-friendly sections.</p>
+            <div class="work-meta"><span class="tag">HTML/CSS/JS</span><span class="tag">SEO</span><span class="tag">Perf</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="reveal">© <span id="year"></span> Batuhan Saylam</span>
+      <span class="reveal" style="display:flex; gap:10px; align-items:center; flex-wrap:wrap;">
+        <span class="pill">HTML/CSS/JS</span>
+        <a href="https://github.com/bthnsylm" target="_blank" rel="noreferrer">GitHub</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>

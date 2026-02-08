@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f7f8fb" />
+  <meta name="description" content="Studio-style landing for Batuhan Saylam." />
+  <title>Batuhan Studio | Product Studio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+<body>
+  <div class="bg" aria-hidden="true"></div>
+
+  <div class="page-transition" id="pageTransition" aria-hidden="true">
+    <div class="pt-inner">
+      <div class="pt-card"><span class="spinner" aria-hidden="true"></span><span>Loading…</span></div>
+    </div>
+  </div>
+
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="./index.html" aria-label="Home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Batuhan Studio</span>
+        <small>build • ship • iterate</small>
+      </a>
+
+      <nav class="nav" aria-label="Main">
+        <a href="./index.html">Home</a>
+        <a href="./work.html">Work</a>
+        <a href="./services.html">Services</a>
+        <a href="./about.html">About</a>
+        <a href="./index.html#contact">Contact</a>
+      </nav>
+
+      <div class="actions">
+        <button class="icon-btn" id="themeToggle" aria-label="Toggle theme"><span id="themeIcon">☀️</span></button>
+        <button class="icon-btn burger" id="burger" aria-label="Menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <aside class="drawer" id="drawer" aria-hidden="true">
+    <div class="drawer-panel drawer-panel">
+      <div style="display:flex; justify-content:space-between; align-items:center; gap:10px;">
+        <span class="pill">menu</span>
+        <button class="icon-btn" id="drawerClose" aria-label="Close">✕</button>
+      </div>
+      <div style="margin-top:10px">
+        <a href="./index.html">Home</a>
+        <a href="./work.html">Work</a>
+        <a href="./services.html">Services</a>
+        <a href="./about.html">About</a>
+        <a href="./index.html#contact">Contact</a>
+      </div>
+      <div style="margin-top:14px; display:flex; gap:8px; flex-wrap:wrap;">
+        <span class="pill">static</span><span class="pill">fast</span><span class="pill">public repo safe</span>
+      </div>
+    </div>
+  </aside>
+
+  
+<main>
+  <section class="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="reveal">
+          <div class="kicker"><span class="kdot"></span><span>product studio</span></div>
+          <h1>Design-led builds for <span class="grad">e-commerce</span> & mobile.</h1>
+          <p class="lead">
+            I build modern web experiences (WordPress/static/custom) and Flutter mobile apps.
+            This site is a studio-style showcase: clean, readable, and focused on outcomes.
+          </p>
+
+          <div class="hero-cta">
+            <a class="btn primary" href="./work.html"><span>See Work</span><span class="arrow">→</span></a>
+            <a class="btn" href="./services.html"><span>Services</span></a>
+            <a class="btn ghost" href="#contact"><span>Contact</span></a>
+          </div>
+
+          <div class="reveal" style="margin-top:14px; display:flex; gap:8px; flex-wrap:wrap">
+            <span class="pill">Flutter</span><span class="pill">WooCommerce</span><span class="pill">UI/UX</span><span class="pill">Automation</span>
+          </div>
+        </div>
+
+        <aside class="hero-card reveal">
+          <div class="top">
+            <div class="logo">
+              <div class="sq" aria-hidden="true"></div>
+              <div>
+                <div style="font-weight:950; letter-spacing:-.02em;">Batuhan Studio</div>
+                <div style="color:var(--muted2); font-family:var(--mono); font-weight:800; font-size:12px;">small team vibe • high polish</div>
+              </div>
+            </div>
+            <div class="status"><span class="dot" aria-hidden="true"></span><span>available</span></div>
+          </div>
+
+          <div class="bento">
+            <div class="tile">
+              <div class="t">specialty</div>
+              <div class="v">E-commerce systems</div>
+            </div>
+            <div class="tile">
+              <div class="t">mobile</div>
+              <div class="v">Flutter apps</div>
+            </div>
+            <div class="tile big">
+              <div class="t">promise</div>
+              <div class="v">Fast iteration, clean UI, clear communication.</div>
+            </div>
+            <div class="tile">
+              <div class="t">public</div>
+              <div class="v">GitHub-ready</div>
+            </div>
+            <div class="tile">
+              <div class="t">focus</div>
+              <div class="v">Ship & improve</div>
+            </div>
+          </div>
+
+          <div style="margin-top:12px">
+            <span class="spark">✨ Built to look “real” — not a template.</span>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="reveal">What I build</h2>
+        <p class="reveal">Three core tracks. Each one can be small & quick, or a full product build.</p>
+      </div>
+
+      <div class="grid three">
+        <div class="card reveal">
+          <h3>Web Experiences</h3>
+          <p>Landing pages, performance-focused sites, WooCommerce builds, SEO-friendly architecture.</p>
+          <div class="tags"><span class="tag">HTML/CSS/JS</span><span class="tag">WordPress</span><span class="tag">Perf</span></div>
+        </div>
+        <div class="card reveal">
+          <h3>Flutter Mobile</h3>
+          <p>Catalog, cart, checkout UX. Clean components and scalable state management.</p>
+          <div class="tags"><span class="tag">Flutter</span><span class="tag">Dart</span><span class="tag">UI</span></div>
+        </div>
+        <div class="card reveal">
+          <h3>Automation & Tools</h3>
+          <p>Dashboards, integrations, and scripts that reduce manual work and mistakes.</p>
+          <div class="tags"><span class="tag">Python</span><span class="tag">APIs</span><span class="tag">Ops</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="reveal">Selected work</h2>
+        <p class="reveal">High-level cards here; details can live in case-study pages or repo READMEs.</p>
+      </div>
+
+      <div class="work">
+        <a class="work-item reveal" href="./work.html">
+          <div class="work-cover"><span class="work-badge">E-commerce</span></div>
+          <div class="work-body">
+            <h3>Checkout & Cart Improvements</h3>
+            <p>Reduce friction in the purchase funnel and improve clarity across devices.</p>
+            <div class="work-meta"><span class="tag">UX</span><span class="tag">WooCommerce</span><span class="tag">Performance</span></div>
+          </div>
+        </a>
+
+        <a class="work-item reveal" href="./work.html">
+          <div class="work-cover"><span class="work-badge">Flutter</span></div>
+          <div class="work-body">
+            <h3>Boutique Store App</h3>
+            <p>Mobile storefront consuming WordPress/Woo data with a premium UI.</p>
+            <div class="work-meta"><span class="tag">Flutter</span><span class="tag">API</span><span class="tag">UI</span></div>
+          </div>
+        </a>
+      </div>
+
+      <div class="reveal" style="margin-top:14px; display:flex; justify-content:flex-end;">
+        <a class="btn primary" href="./work.html"><span>Browse all work</span><span class="arrow">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="reveal">How I work</h2>
+        <p class="reveal">Simple process, shipped in small increments. It keeps projects sane.</p>
+      </div>
+
+      <div class="process">
+        <div class="step reveal">
+          <div class="num">1</div>
+          <h3>Define</h3>
+          <p>Clarify scope, constraints, user journey, and success metrics.</p>
+        </div>
+        <div class="step reveal">
+          <div class="num">2</div>
+          <h3>Design</h3>
+          <p>Bento layouts, clean components, and UX for real-world edge cases.</p>
+        </div>
+        <div class="step reveal">
+          <div class="num">3</div>
+          <h3>Ship</h3>
+          <p>Deliver fast, iterate weekly, and keep everything maintainable.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="reveal">Contact</h2>
+        <p class="reveal">No backend here — the form opens your email client. Clean + public repo safe.</p>
+      </div>
+
+      <div class="grid two">
+        <div class="card reveal">
+          <h3>Quick links</h3>
+          <p><strong>Email:</strong> <a href="mailto:batuhan.saylam@icloud.com">batuhan.saylam@icloud.com</a></p>
+          <p><strong>GitHub:</strong> <a href="https://github.com/bthnsylm" target="_blank" rel="noreferrer">github.com/bthnsylm</a></p>
+          <p style="margin-top:12px; color:var(--muted2); font-family:var(--mono); font-weight:800; font-size:12px;">
+            LinkedIn: pending account review
+          </p>
+          <div class="tags"><span class="tag">Istanbul</span><span class="tag">E-commerce</span><span class="tag">Mobile</span></div>
+        </div>
+
+        <div class="card reveal">
+          <h3>Send a message</h3>
+          <form id="contactForm" style="display:grid; gap:10px;">
+            <label style="display:grid; gap:6px;">
+              <span style="font-family:var(--mono); font-weight:900; font-size:12px; color:var(--muted2); text-transform:uppercase;">Name</span>
+              <input name="name" required placeholder="Your name" style="padding:12px 12px; border-radius:14px; border:1px solid var(--line); background:var(--paper); color:var(--ink); outline:none;" />
+            </label>
+            <label style="display:grid; gap:6px;">
+              <span style="font-family:var(--mono); font-weight:900; font-size:12px; color:var(--muted2); text-transform:uppercase;">Email</span>
+              <input name="email" type="email" required placeholder="you@mail.com" style="padding:12px 12px; border-radius:14px; border:1px solid var(--line); background:var(--paper); color:var(--ink); outline:none;" />
+            </label>
+            <label style="display:grid; gap:6px;">
+              <span style="font-family:var(--mono); font-weight:900; font-size:12px; color:var(--muted2); text-transform:uppercase;">Message</span>
+              <textarea name="message" rows="5" required placeholder="A short message…" style="padding:12px 12px; border-radius:14px; border:1px solid var(--line); background:var(--paper); color:var(--ink); outline:none; resize:vertical;"></textarea>
+            </label>
+            <button class="btn primary" type="submit"><span>Open email</span><span class="arrow">→</span></button>
+            <div class="pill">Tip: later we can wire this to a real API.</div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="reveal">© <span id="year"></span> Batuhan Saylam</span>
+      <span class="reveal" style="display:flex; gap:10px; align-items:center; flex-wrap:wrap;">
+        <span class="pill">HTML/CSS/JS</span>
+        <a href="https://github.com/bthnsylm" target="_blank" rel="noreferrer">GitHub</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>

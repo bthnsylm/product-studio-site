@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f7f8fb" />
+  <meta name="description" content="Services and packages." />
+  <title>Services | Batuhan Studio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+<body>
+  <div class="bg" aria-hidden="true"></div>
+
+  <div class="page-transition" id="pageTransition" aria-hidden="true">
+    <div class="pt-inner">
+      <div class="pt-card"><span class="spinner" aria-hidden="true"></span><span>Loading…</span></div>
+    </div>
+  </div>
+
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="./index.html" aria-label="Home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Batuhan Studio</span>
+        <small>build • ship • iterate</small>
+      </a>
+
+      <nav class="nav" aria-label="Main">
+        <a href="./index.html">Home</a>
+        <a href="./work.html">Work</a>
+        <a href="./services.html">Services</a>
+        <a href="./about.html">About</a>
+        <a href="./index.html#contact">Contact</a>
+      </nav>
+
+      <div class="actions">
+        <button class="icon-btn" id="themeToggle" aria-label="Toggle theme"><span id="themeIcon">☀️</span></button>
+        <button class="icon-btn burger" id="burger" aria-label="Menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <aside class="drawer" id="drawer" aria-hidden="true">
+    <div class="drawer-panel drawer-panel">
+      <div style="display:flex; justify-content:space-between; align-items:center; gap:10px;">
+        <span class="pill">menu</span>
+        <button class="icon-btn" id="drawerClose" aria-label="Close">✕</button>
+      </div>
+      <div style="margin-top:10px">
+        <a href="./index.html">Home</a>
+        <a href="./work.html">Work</a>
+        <a href="./services.html">Services</a>
+        <a href="./about.html">About</a>
+        <a href="./index.html#contact">Contact</a>
+      </div>
+      <div style="margin-top:14px; display:flex; gap:8px; flex-wrap:wrap;">
+        <span class="pill">static</span><span class="pill">fast</span><span class="pill">public repo safe</span>
+      </div>
+    </div>
+  </aside>
+
+  
+<main>
+  <section class="hero" style="padding-bottom:10px;">
+    <div class="container">
+      <div class="kicker reveal"><span class="kdot"></span><span>services</span></div>
+      <h1 class="reveal">Clear packages, flexible scope.</h1>
+      <p class="lead reveal">This is a showcase (not a sales page), but it helps communicate what you do.</p>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="reveal">Packages</h2>
+        <p class="reveal">Use these as “structure”. You can rename and adjust later.</p>
+      </div>
+
+      <div class="grid three">
+        <div class="card reveal">
+          <h3>Landing Sprint</h3>
+          <p>1–3 pages, fast build, clean UI, performance-focused.</p>
+          <div class="tags"><span class="tag">Static</span><span class="tag">SEO</span><span class="tag">Perf</span></div>
+        </div>
+        <div class="card reveal">
+          <h3>Store Upgrade</h3>
+          <p>Checkout, cart, UX improvements, speed audits, integration cleanups.</p>
+          <div class="tags"><span class="tag">WooCommerce</span><span class="tag">UX</span><span class="tag">Perf</span></div>
+        </div>
+        <div class="card reveal">
+          <h3>Flutter App</h3>
+          <p>Catalog + detail + cart foundations, scalable components, safe config.</p>
+          <div class="tags"><span class="tag">Flutter</span><span class="tag">Dart</span><span class="tag">UI</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="reveal">Principles</h2>
+        <p class="reveal">Why projects stay clean and maintainable.</p>
+      </div>
+
+      <div class="grid two">
+        <div class="card reveal">
+          <h3>Public repo safe</h3>
+          <p>No secrets in Git. Config examples + environment variables. Clean README.</p>
+          <div class="tags"><span class="tag">Git</span><span class="tag">Security</span><span class="tag">Docs</span></div>
+        </div>
+        <div class="card reveal">
+          <h3>Ship → iterate</h3>
+          <p>Small releases create momentum. Measure, then refine.</p>
+          <div class="tags"><span class="tag">DX</span><span class="tag">Velocity</span><span class="tag">Quality</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="reveal">© <span id="year"></span> Batuhan Saylam</span>
+      <span class="reveal" style="display:flex; gap:10px; align-items:center; flex-wrap:wrap;">
+        <span class="pill">HTML/CSS/JS</span>
+        <a href="https://github.com/bthnsylm" target="_blank" rel="noreferrer">GitHub</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>
